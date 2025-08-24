@@ -6,7 +6,7 @@ export const Profile = () => {
       </div>
       <div className="mt-5 mb-2 text-xl font-semibold">Deepak Aggarwal</div>
       <div>deepakagg1206@gmail.com</div>
-      <div>9891220220</div>
+      <div>9999988888</div>
       <div className="mt-3">Delhi,India</div>
     </div>
   );
