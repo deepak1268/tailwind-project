@@ -1,8 +1,12 @@
 export const Greeting = () => {
   return (
-    <div>
-      <div>Monday, 14 October</div>
-      <div>Good morning, Deepak</div>
+    <div className="">
+      <div className="mb-4 font-medium text-lg">
+        Monday, 14 October
+      </div>
+      <div className="text-3xl font-bold text-blue-900">
+        Good morning, Deepak
+      </div>
     </div>
   );
 };

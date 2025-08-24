@@ -42,7 +42,7 @@ function SidebarToggle({ sideBar, setSideBar }) {
         viewBox="0 0 24 24"
         stroke-width="1.5"
         stroke="currentColor"
-        class="size-6"
+        className="size-6"
       >
         <path
           stroke-linecap="round"
@@ -61,4 +61,24 @@ function SidebarComponent({ children, icon: Homeicon }) {
       <Homeicon onClick={() => {}} />
     </div>
   );
+}
+
+function ClosedSidebarContent(){
+  return <div className='mt-2'>
+    <div className='flex justify-center items-center h-16 m-2 rounded-xl cursor-pointer hover:bg-[#e5e9ec]'>
+      <Home/>
+    </div>
+    <div className='flex justify-center items-center h-16 m-2 rounded-xl cursor-pointer hover:bg-[#e5e9ec]'>
+      <Group />
+    </div>
+    <div className='flex justify-center items-center h-16 m-2 rounded-xl cursor-pointer hover:bg-[#e5e9ec]'>
+      <Card />
+    </div>
+    <div className='flex justify-center items-center h-16 m-2 rounded-xl cursor-pointer hover:bg-[#e5e9ec]'>
+      <User />
+    </div>
+    <div className='flex justify-center items-center h-16 m-2 rounded-xl cursor-pointer hover:bg-[#e5e9ec]'>
+      <Settings />
+    </div>
+  </div>
 }
